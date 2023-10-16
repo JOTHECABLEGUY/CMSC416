@@ -1,0 +1,159 @@
+qa-samples.txt
+Correct: 	1,2,4,6,8,9,11,13,15,17
+Incorrect:	3,5,7,10,12,14,16,18,19,20
+
+
+
+					WHEN
+
+1.	
+	Question : When was George Washington born?
+
+	Correct Answer : George Washington was born on February 22, 1732.
+
+	My System Answer : George Washington was born on February 22, 1732. (correct)
+
+2.
+	Question : When is Christmas
+
+	Correct Answer : Christmas is on December 25.
+
+	My System Answer : Christmas is on December 25. (correct)
+
+3.
+	Question : When is the Fourth of July
+
+	Correct Answer : The Fourth of July is on July 4.
+
+	My System Answer : The Fourth of July is on the 1976 autobiography by Ron Kovic. (incorrect)
+
+4.
+	Question : When was the Battle of Trenton
+
+	Correct Answer : The Battle of Trenton was on December 26, 1776.
+
+	My System Answer : The Battle of Trenton was on December 26, 1776. (correct)
+
+5.
+	Question : When is Saint Patrick's Day
+
+	Correct Answer : Saint Patrick's Day is on March 17.
+
+	My System Answer : Saint Patrick's Day is on 17 March with festivities similar to those in neighbouring central European countries, it is not unusual for Swiss students to organise celebrations in their own living spaces on Saint Patrick's Eve. (incorrect - too much info)
+
+
+					WHO
+
+
+6.
+	Question : Who was George Washington?
+
+	Correct Answer : George Washington was an American military officer, statesman, and Founding Father who served as the first president of the United States from 1789 to 1797.
+
+	My System Answer : George Washington was an American military officer, statesman, and Founding Father who served as the first president of the United States from 1789 to 1797. (correct)
+
+7.
+	Question : Who founded NASA?
+
+	Correct Answer : President Eisenhower signed the National Aeronautics and Space Act of 1958 establishing the National Aeronautics and Space Administration (NASA)
+
+	My System Answer : NASA was founded by NASA Academy was. (incorrect)
+
+8.
+	Question : Who assassinated Lincoln?
+
+	Correct Answer : Lincoln was assassinated by known stage actor John Wilkes Booth.
+
+	My System Answer : Lincoln was assassinated by known stage actor John Wilkes Booth. (correct)
+
+9.
+	Question : Who was Helen of Troy?
+
+	Correct Answer : Helen of Troy was a figure in Greek mythology said to have been the most beautiful woman in the world.
+
+	My System Answer : Helen of Troy was a figure in Greek mythology said to have been the most beautiful woman in the world. (correct)
+
+10.
+	Question : Who voiced Alvin the Chipmunk?
+
+	Correct Answer : Alvin the Chipmunk was voiced by Justin Long
+
+	My System Answer : The Chipmunk was voiced by He most recently. (incorrect)
+
+
+					WHAT
+
+
+11.
+	Question : What is a parallelogram?
+
+	Correct Answer : A parallelogram is a simple (non-self-intersecting) quadrilateral with two pairs of parallel sides.
+
+	My System Answer : A parallelogram is a simple (non-self-intersecting) quadrilateral with two pairs of parallel sides. (correct)
+
+12.
+	Question : What is pizza?
+
+	Correct Answer : Pizza is a dish of  Italian origin consisting of a usually round, flat base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients (such as various types of sausage, anchovies, mushrooms, onions, olives, vegetables, meat, ham, etc.
+
+	My System Answer : Pizza is sometimes called a pizzetta. (incorrect)
+
+13.
+	Question : What is the Moon?
+
+	Correct Answer : The Moon is Earth's only natural satellite.
+
+	My System Answer : The Moon is Earth's only natural satellite. (correct)
+
+14.
+	Question : What is an answer?
+
+	Correct Answer : A spoken or written reply, as to a question.
+
+	My System Answer : An answer is a substance, that which stands for the change. (incorrect)
+
+15.
+	Question : What is Guy Fawkes Day?
+
+	Correct Answer : Guy Fawkes Day is an annual commemoration observed on 5 November, primarily in Great Britain, involving bonfires and fireworks displays.
+
+	My System Answer : Guy Fawkes Day is an annual commemoration observed on 5 November, primarily in Great Britain, involving bonfires and fireworks displays. (correct)
+
+
+
+					WHERE
+
+16.
+	Question : Where does the Pope live?
+
+	Correct Answer : The Pope lives in the Apostolic Palace in Vatican City.
+
+	My System Answer : The Pope live in Saitama, Japan, with two children. (incorrect)
+
+17.
+	Question : Where is the Louvre?
+
+	Correct Answer : The Louvre is in Paris, France.
+
+	My System Answer : The Louvre is in Paris, France. (correct)
+
+18.
+	Question : Where did Lincoln die?
+
+	Correct Answer : Lincoln died in the Petersen House in Washington, D.C.
+
+	My System Answer : Lincoln died in 1897, Lincoln assumed the company's presidency. (incorrect)
+
+19.
+	Question : Where is the Moon?
+
+	Correct Answer : The Moon is in Earth's orbit in the Solar System
+
+	My System Answer : The Moon is in M☾ 'lunar mass' (also ML. (incorrect)
+
+20.
+	Question : Where did Iron Man premier
+
+	Correct Answer : Iron Man premiered in Sydney
+
+	My System Answer : Iron Man premiered in Sydney on April 14, 2008, and was released in the United States on May 2, being the first film in Phase One of the MCU. (incorrect)

@@ -1,0 +1,547 @@
+*** This is a QA system by Jordan Dube. 
+	It will try to answer questions that start with Who, What, When or Where.
+	Enter 'exit' to leave the program.
+=?>	who is Thomas Edison
+
+SEARCHED FOR: Thomas Edison is 
+TITLES OF PAGES RETURNED: ['Thomas Edison', 'Thomas Edison State University', 'Thomas A. Edison, Inc.', 'Edison Studios', 'USS Thomas A. Edison', 'Thomas Edison in popular culture', 'Edison High School', 'Thomas Edison House', 'Mina Miller Edison', 'List of Edison patents']
+
+SENTENCE FOUND:  Thomas Edison State University, nationally known for adult learners, is in Trenton, New Jersey
+USING PATTERN:re.compile('\\bThomas\\b.*?\\bEdison\\b.*?\\bis\\b.*?\\b\\b(.*)\\b,?')
+ANSWER:  in Trenton, New Jersey
+=>	Thomas Edison is in Trenton, New Jersey.
+=?>	who was Thomas Edison
+
+SEARCHED FOR: Thomas Edison was 
+TITLES OF PAGES RETURNED: ['Thomas Edison', 'Thomas Edison State University', 'Thomas A. Edison, Inc.', 'USS Thomas A. Edison', 'Edison Studios', 'Thomas Edison in popular culture', 'Thomas Edison House', 'List of Edison patents', 'Mina Miller Edison', 'Charles Edison']
+
+SENTENCE FOUND: Thomas Alva Edison (February 11, 1847 – October 18, 1931) was an American inventor and businessman
+USING PATTERN:re.compile('\\bThomas\\b.*?\\bEdison\\b.*?\\bwas\\b.*?\\b\\b(.*)\\b,?')
+ANSWER:  an American inventor and businessman
+=>	Thomas Edison was an American inventor and businessman.
+=?>	when was the Watergate Scandal
+
+SEARCHED FOR: Watergate Scandal was on
+TITLES OF PAGES RETURNED: ['Watergate scandal', 'Timeline of the Watergate scandal', 'Watergate complex', 'United States Senate Watergate Committee', 'Deep Throat (Watergate)', 'List of -gate scandals and controversies', 'Watergate Seven', 'Watergate salad', 'Teapot Dome scandal', 'Martha Mitchell']
+
+SEARCHED FOR: Watergate Scandal was
+TITLES OF PAGES RETURNED: ['Watergate scandal', 'Timeline of the Watergate scandal', 'Watergate complex', 'United States Senate Watergate Committee', 'Deep Throat (Watergate)', 'List of -gate scandals and controversies', 'Watergate Seven', 'Teapot Dome scandal', 'Watergate salad', 'Watergate (disambiguation)']
+
+SEARCHED FOR: Watergate Scandal
+TITLES OF PAGES RETURNED: ['Watergate scandal', 'Timeline of the Watergate scandal', 'Watergate complex', 'Deep Throat (Watergate)', 'United States Senate Watergate Committee', 'List of -gate scandals and controversies', 'Martha Mitchell', 'Teapot Dome scandal', 'Watergate Seven', 'G. Gordon Liddy']
+=>	I am sorry, I can not answer your question. Try a different question or rephrase.
+=?>	when was Richard Nixon elected
+
+SEARCHED FOR: Richard Nixon was elected on
+TITLES OF PAGES RETURNED: ['Richard Nixon', 'Pat Nixon', 'Impeachment process against Richard Nixon', 'Presidency of Richard Nixon', 'Julie Nixon Eisenhower', 'Richard Nixon 1968 presidential campaign', '1972 United States presidential election', '1962 California gubernatorial election', 'Watergate scandal', 'John Francis Cronin']
+
+SENTENCE FOUND:  When Richard Nixon was elected to Congress in 1946, he sought out information on Communism, and he was introduced to Cronin by Representative Charles J
+USING PATTERN:re.compile('\\bRichard\\b.*?\\bNixon\\b.*?\\bwas\\b.*?\\belected\\b.*?\\bon\\b(.*)\\b,?')
+ANSWER:  Communism, and he was introduced to Cronin by Representative Charles J
+=>	I am sorry, I can not answer your question. Try a different question or rephrase.
+=?>	when was Nixon elected
+
+SEARCHED FOR: Nixon was elected on
+TITLES OF PAGES RETURNED: ['Pat Nixon', 'Richard Nixon', 'Julie Nixon Eisenhower', 'Watergate scandal', '1962 California gubernatorial election', 'Jay Nixon', '1968 United States presidential election', 'Impeachment process against Richard Nixon', 'H. R. Haldeman', 'Presidency of Richard Nixon']
+
+SEARCHED FOR: Nixon was elected
+TITLES OF PAGES RETURNED: ['Richard Nixon', 'Pat Nixon', '1962 California gubernatorial election', 'Julie Nixon Eisenhower', 'Robert Nixon (politician)', 'H. R. Haldeman', 'Jay Nixon', 'Watergate scandal', 'Kenneth Reese Cole Jr.', 'Peter Nixon']
+
+SEARCHED FOR: Nixon was
+TITLES OF PAGES RETURNED: ['Richard Nixon', 'Watergate scandal', 'Presidency of Richard Nixon', 'Lewis Nixon III', 'Tricia Nixon Cox', 'Henry Nixon', 'Impeachment process against Richard Nixon', 'Marni Nixon', 'Cynthia Nixon', 'Pat Nixon']
+=>	I am sorry, I can not answer your question. Try a different question or rephrase.
+=?>	When was Troy founded
+
+SEARCHED FOR: Troy was founded on
+TITLES OF PAGES RETURNED: ['Troy', 'Troy University', 'Troy, New York', 'Troy weight', 'Trojan War', 'Cassandra', 'Helen of Troy', 'Troy Baker', 'Late Bronze Age Troy', 'Troy, Tennessee']
+
+SENTENCE FOUND: 
+
+
+=== Troy I ===
+
+Troy I was founded around 3000 BC on what was then the eastern shore of a shallow lagoon
+USING PATTERN:re.compile('\\bTroy\\b.*?\\bwas\\b.*?\\bfounded\\b.*?\\bon\\b(.*)\\b,?')
+ANSWER:  what was then the eastern shore of a shallow lagoon
+=>	I am sorry, I can not answer your question. Try a different question or rephrase.
+=?>	When did Troy fall
+
+SEARCHED FOR: Troy  falled on
+TITLES OF PAGES RETURNED: ['Troy: Fall of a City', 'The Fall of Troy (band)', 'The Fall of Troy', 'Troy', 'Trojan War', 'Doppelgänger (The Fall of Troy album)', 'The Fall of Troy (album)', 'Helen of Troy', 'David Gyasi', 'The Fall of Troy (film)']
+
+SEARCHED FOR: Troy  falled
+TITLES OF PAGES RETURNED: ['Troy: Fall of a City', 'The Fall of Troy (band)', 'The Fall of Troy', 'The Fall of Troy (album)', 'Doppelgänger (The Fall of Troy album)', 'Trojan War', 'Troy', 'Helen of Troy', 'David Gemmell', 'David Gyasi']
+
+SEARCHED FOR: Troy 
+TITLES OF PAGES RETURNED: ['Troy', 'Troy (film)', 'Troy, New York', 'Trojan War', 'Troy weight', 'Troy, Wisconsin', 'Troy University', 'Troy Baker', 'Troy Aikman', 'Helen of Troy']
+
+SEARCHED FOR: Troy date
+TITLES OF PAGES RETURNED: ['Troy', 'Troy (film)', 'Troy weight', 'Trojan War', 'Helen of Troy', 'Troy Baker', 'Troy Donahue', "Lil' Troy", 'Troy Aikman', 'Doctor Faustus (play)']
+=>	I am sorry, I can not answer your question. Try a different question or rephrase.
+=?>	When is Christmas
+
+SEARCHED FOR: Christmas is on
+TITLES OF PAGES RETURNED: ['Christmas', 'Christmas Christmas', 'Christmas Is', 'This Is Christmas', 'Christmas Island', 'This Christmas', 'Christmas Eve', 'Christmas and holiday season', 'All I Want for Christmas Is You', 'This Is Christmas (film)']
+
+SENTENCE FOUND: Christmas is an annual festival commemorating the birth of Jesus Christ, observed primarily on December 25 as a religious and cultural celebration among billions of people around the world
+USING PATTERN:re.compile('\\bChristmas\\b.*?\\bis\\b.*?\\bon\\b(.*)\\b,?')
+ANSWER:  December 25 as a religious and cultural celebration among billions of people around the world
+=>	Christmas is on December 25.
+=?>	When is Easter
+
+SEARCHED FOR: Easter is on
+TITLES OF PAGES RETURNED: ['Easter', 'Easter Island', 'Easter egg (media)', 'Easter Rising', 'Easter egg', 'List of Google Easter eggs', 'Octave of Easter', 'Easter lily', 'Moai', 'Easter Is Cancelled']
+
+SENTENCE FOUND: Easter, also called Pascha (Aramaic, Greek, Latin) or Resurrection Sunday, is a Christian festival and cultural holiday commemorating the resurrection of Jesus from the dead, described in the New Testament as having occurred on the third day of his burial following his crucifixion by the Romans at Calvary c
+USING PATTERN:re.compile('\\bEaster\\b.*?\\bis\\b.*?\\bon\\b(.*)\\b,?')
+ANSWER:  the third day of his burial following his crucifixion by the Romans at Calvary c
+=>	I am sorry, I can not answer your question. Try a different question or rephrase.
+=?>	When is the Fourth of July
+
+SEARCHED FOR: Fourth of July is on
+TITLES OF PAGES RETURNED: ['Born on the Fourth of July (film)', 'Independence Day (United States)', 'Fourth of July (film)', 'Born on the Fourth of July', 'Fourth of July (disambiguation)', 'Fourth of July tomato', 'What to the Slave Is the Fourth of July?', 'Fourth of July Summit', 'July 4', 'Fourth of July Peak']
+
+SENTENCE FOUND: Born on the Fourth of July is a 1989 American biographical anti-war drama film based on the 1976 autobiography by Ron Kovic
+USING PATTERN:re.compile('\\bFourth\\b.*?\\bof\\b.*?\\bJuly\\b.*?\\bis\\b.*?\\bon\\b(.*)\\b,?')
+ANSWER:  the 1976 autobiography by Ron Kovic
+=>	The Fourth of July is on the 1976 autobiography by Ron Kovic.
+=?>	When was the Battle of Trenton
+
+SEARCHED FOR: Battle of Trenton was on
+TITLES OF PAGES RETURNED: ['Battle of Trenton', 'Battle of the Assunpink Creek', 'Trenton, New Jersey', 'Trenton', 'Trenton Battle Monument', 'Portrait of George Washington Taking the Salute at Trenton', 'Order of battle of the Battle of Trenton', 'Battle of Princeton', 'USS Trenton', "George Washington's crossing of the Delaware River"]
+
+SENTENCE FOUND: The Battle of Trenton was a small but pivotal American Revolutionary War battle on the morning of December 26, 1776, in Trenton, New Jersey
+USING PATTERN:re.compile('\\bBattle\\b.*?\\bof\\b.*?\\bTrenton\\b.*?\\bwas\\b.*?\\bon\\b(.*)\\b,?')
+ANSWER:  the morning of December 26, 1776, in Trenton, New Jersey
+=>	The Battle of Trenton was on December 26, 1776.
+=?>	When was Lincoln assassinated
+
+SEARCHED FOR: Lincoln was assassinated on
+TITLES OF PAGES RETURNED: ['Assassination of Abraham Lincoln', 'Lincoln–Kennedy coincidences urban legend', 'List of United States presidential assassination attempts and plots', 'Lincoln assassination flags', 'John Wilkes Booth', 'Funeral and burial of Abraham Lincoln', 'John Frederick Parker', 'Mary Todd Lincoln', 'Effie Germon', 'Abraham Lincoln']
+
+SENTENCE FOUND: After Abraham Lincoln was assassinated on April 14, 1865, a three-week series of events was held to mourn the death and memorialize the life of the 16th president of the United States
+USING PATTERN:re.compile('\\bLincoln\\b.*?\\bwas\\b.*?\\bassassinated\\b.*?\\bon\\b(.*)\\b,?')
+ANSWER:  April 14, 1865, a three-week series of events was held to mourn the death and memorialize the life of the 16th president of the United States
+=>	Lincoln was assassinated on April 14, 1865.
+=?>	When is Saint Patrick's Day
+
+SEARCHED FOR: Saint Patrick's Day is on
+TITLES OF PAGES RETURNED: ["Saint Patrick's Day", "Saint Patrick's Day in the United States", "Unofficial Saint Patrick's Day", "Saint Patrick's Saltire", 'Saint Patrick', "St. Patrick's Old Cathedral", "Credigree Weed St. Patrick's Day Special", "Saint Patrick's Battalion", 'Evacuation Day (Massachusetts)', "Saint Patrick's Day (disambiguation)"]
+
+SENTENCE FOUND: 
+
+
+==== Switzerland ====
+While Saint Patrick's Day in Switzerland is commonly celebrated on 17 March with festivities similar to those in neighbouring central European countries, it is not unusual for Swiss students to organise celebrations in their own living spaces on Saint Patrick's Eve
+USING PATTERN:re.compile("\\bSaint\\b.*?\\bPatrick's\\b.*?\\bDay\\b.*?\\bis\\b.*?\\bon\\b(.*)\\b,?")
+ANSWER:  17 March with festivities similar to those in neighbouring central European countries, it is not unusual for Swiss students to organise celebrations in their own living spaces on Saint Patrick's Eve
+=>	Saint Patrick's Day is on 17 March with festivities similar to those in neighbouring central European countries, it is not unusual for Swiss students to organise celebrations in their own living spaces on Saint Patrick's Eve.
+=?>	Who was George Washington?
+
+SEARCHED FOR: George Washington was 
+TITLES OF PAGES RETURNED: ['George Washington', 'George Washington Carver', 'George Washington Bridge', 'George, Washington', 'George Washington University', 'Mount Vernon', 'Presidency of George Washington', 'Washington family', 'George Washington Vanderbilt', 'USS George Washington (CVN-73)']
+
+SENTENCE FOUND: George Washington (February 22, 1732 – December 14, 1799) was an American military officer, statesman, and Founding Father who served as the first president of the United States from 1789 to 1797
+USING PATTERN:re.compile('\\bGeorge\\b.*?\\bWashington\\b.*?\\bwas\\b.*?\\b\\b(.*)\\b,?')
+ANSWER:  an American military officer, statesman, and Founding Father who served as the first president of the United States from 1789 to 1797
+=>	George Washington was an American military officer, statesman, and Founding Father who served as the first president of the United States from 1789 to 1797.
+=?>	Who founded NASA
+
+SEARCHED FOR: NASA was founded by
+TITLES OF PAGES RETURNED: ['NASA', 'Ames Research Center', 'NASA facilities', 'Langley Research Center', 'NASA spinoff technologies', 'NASA TV', 'Space Shuttle', 'NASA WorldWind', 'NASA-TLX', 'Budget of NASA']
+
+SEARCHED FOR: NASA was founded
+TITLES OF PAGES RETURNED: ['NASA', 'NASA spinoff technologies', 'NASA facilities', 'Ames Research Center', 'NASA TV', 'NASA Academy', 'NASA-TLX', 'Space Shuttle', 'Langley Research Center', 'NASA WorldWind']
+
+SENTENCE FOUND: 
+
+
+== History ==
+The NASA Academy was founded in 1993 at NASA's Goddard Space Flight Center by Gerald "Gerry" Soffen
+USING PATTERN:re.compile('((\\w+\\s*){1,3})\\bfounded\\b.*\\bNASA')
+ANSWER: NASA Academy was 
+=>	NASA was founded by NASA Academy was.
+=?>	Who assassinated Lincoln
+
+SEARCHED FOR: Lincoln was assassinated by
+TITLES OF PAGES RETURNED: ['Assassination of Abraham Lincoln', 'Lincoln–Kennedy coincidences urban legend', 'List of United States presidential assassination attempts and plots', 'Lincoln assassination flags', 'John Wilkes Booth', 'John Frederick Parker', 'Mary Todd Lincoln', 'Abraham Lincoln', 'Effie Germon', 'Assassination']
+
+SENTENCE FOUND: On April 14, 1865, Abraham Lincoln, the 16th president of the United States, was assassinated by well-known stage actor John Wilkes Booth, while attending the play Our American Cousin at Ford's Theatre in Washington, D
+USING PATTERN:re.compile('\\bLincoln\\b.*?\\bwas\\b.*?\\bassassinated\\b.*?\\bby\\b.*?((\\w+\\s*){1,})\\b[\\.,]')
+ANSWER: known stage actor John Wilkes Booth
+=>	Lincoln was assassinated by known stage actor John Wilkes Booth.
+=?>	Who was Helen of Troy
+
+SEARCHED FOR: Helen of Troy was 
+TITLES OF PAGES RETURNED: ['Helen of Troy', 'Helen of Troy (miniseries)', 'Helen of Troy Limited', 'Helen of Troy (film)', 'Helen of Troy (album)', 'Helen of Troy (disambiguation)', 'Troy (film)', 'Helen of Troy (painting)', 'The Private Life of Helen of Troy', 'Paris (mythology)']
+
+SENTENCE FOUND: Helen of Troy, Helen, Helena, (Ancient Greek: Ἑλένη, romanized: Helénē, pronounced [helénɛː]) also known as beautiful Helen, Helen of Argos, or Helen of Sparta, was a figure in Greek mythology said to have been the most beautiful woman in the world
+USING PATTERN:re.compile('\\bHelen\\b.*?\\bof\\b.*?\\bTroy\\b.*?\\bwas\\b.*?\\b\\b(.*)\\b,?')
+ANSWER:  a figure in Greek mythology said to have been the most beautiful woman in the world
+=>	Helen of Troy was a figure in Greek mythology said to have been the most beautiful woman in the world.
+=?>	Who wrote the Declaration of Independence
+
+SEARCHED FOR: Declaration of Independence was wrote by
+TITLES OF PAGES RETURNED: ['United States Declaration of Independence', 'Mecklenburg Declaration of Independence', 'Signing of the United States Declaration of Independence', 'Israeli Declaration of Independence', 'Committee of Five', 'Physical history of the United States Declaration of Independence', 'Anders Behring Breivik', 'Founding Fathers of the United States', 'Independence Day (United States)', 'International recognition of Kosovo']
+
+SENTENCE FOUND: Jefferson largely wrote the Declaration of Independence in isolation between June 11, 1776 and June 28, 1776 from the second floor of a three-story home he was renting at 700 Market Street in Philadelphia, now called the Declaration House and within walking distance of Independence Hall
+USING PATTERN:re.compile('((\\w+\\s*){1,3})\\bwrote\\b.*\\bDeclaration\\b.*\\bof\\b.*\\bIndependence')
+ANSWER: Jefferson largely 
+=>	The Declaration of Independence was wrote by Jefferson largely.
+=?>	Who voiced Alvin
+
+SEARCHED FOR: Alvin was voiced by
+TITLES OF PAGES RETURNED: ['Justin Long', 'Alvin and the Chipmunks', 'Alvin and the Chipmunks (film)', 'Alvin and the Chipmunks: The Squeakquel', 'Alvin and the Chipmunks in film', 'David Seville', 'Alvin and the Chipmunks: Chipwrecked', 'The Alvin Show', 'Alvin and the Chipmunks: The Road Chip', 'Alvin Sanders']
+
+SENTENCE FOUND:  Bagdasarian would go on to create The Alvin Show, based on the Alvin and the Chipmunks group, where he voiced the semi-fictional character David Seville, based largely on himself, with Alvin based on Ross's sometimes rebellious son Adam
+USING PATTERN:re.compile('((\\w+\\s*){1,3})\\bvoiced\\b.*\\bAlvin')
+ANSWER: where he 
+=>	Alvin was voiced by where he.
+=?>	Who voiced Alvin the Chipmunk
+
+SEARCHED FOR: Chipmunk was voiced by
+TITLES OF PAGES RETURNED: ['Alvin and the Chipmunks', 'The Chipettes', 'The Chipmunk Adventure', 'Alvin and the Chipmunks (film)', 'David Seville', 'Alvin and the Chipmunks: The Squeakquel', 'Alvin and the Chipmunks: The Road Chip', 'A Chipmunk Christmas', 'Alvin and the Chipmunks (1983 TV series)', 'Alvin and the Chipmunks in film']
+
+SENTENCE FOUND:  He most recently voiced the character in the 2015 reboot of the Alvin and the Chipmunks television show
+USING PATTERN:re.compile('((\\w+\\s*){1,3})\\bvoiced\\b.*\\bChipmunk')
+ANSWER: He most recently 
+=>	The Chipmunk was voiced by He most recently.
+=?>	What is independence
+
+SEARCHED FOR: independence is 
+TITLES OF PAGES RETURNED: ['Independence', 'United States Declaration of Independence', 'Independence Square', 'Indian independence', 'Indian independence movement', 'List of wars of independence', 'Independence Party', 'UK Independence Party', 'Scottish independence', 'Walker: Independence']
+
+SENTENCE FOUND:  The opposite of independence is the status of a dependent territory
+USING PATTERN:re.compile('\\bindependence\\b.*?\\bis\\b.*?\\b\\b(.*)\\b,?')
+ANSWER:  the status of a dependent territory
+=>	Independence is the status of a dependent territory.
+=?>	what is a prism
+
+SEARCHED FOR: prism is 
+TITLES OF PAGES RETURNED: ['PRISM', 'Prism', 'Prism (Prism album)', 'Triangular prism', 'Prism (geometry)', 'Blue Prism', 'Prism (optics)', 'Prism (Katy Perry album)', 'Octagonal prism', 'Nicol prism']
+
+SEARCHED FOR: prism is object
+TITLES OF PAGES RETURNED: ['PRISM', 'Wedge prism', 'Trilon', 'Binoculars', 'Prism (Katy Perry album)', 'Dispersive prism', 'Spherinder', 'Laminated object manufacturing', 'Prism correction', 'Cube']
+
+SENTENCE FOUND: The wedge prism is a prism with a shallow angle between its input and output surfaces
+USING PATTERN:re.compile('\\bprism\\b.*?\\bis\\b.*?\\b\\b(.*)\\b,?')
+ANSWER:  a prism with a shallow angle between its input and output surfaces
+=>	A prism is a prism with a shallow angle between its input and output surfaces.
+=?>	what is a parallelogram
+
+SEARCHED FOR: parallelogram is 
+TITLES OF PAGES RETURNED: ['Parallelogram', 'Parallelogram law', 'Rhombus', 'Fundamental parallelogram', 'Quadrilateral', 'Trapezoid', 'Parallelogram of force', "Varignon's theorem", 'Parallelepiped', 'Rectangle']
+
+SENTENCE FOUND: In Euclidean geometry, a parallelogram is a simple (non-self-intersecting) quadrilateral with two pairs of parallel sides
+USING PATTERN:re.compile('\\bparallelogram\\b.*?\\bis\\b.*?\\b\\b(.*)\\b,?')
+ANSWER:  a simple (non-self-intersecting) quadrilateral with two pairs of parallel sides
+=>	A parallelogram is a simple (non-self-intersecting) quadrilateral with two pairs of parallel sides.
+=?>	what is pizza
+
+SEARCHED FOR: pizza is 
+TITLES OF PAGES RETURNED: ['Pizza', 'Hawaiian pizza', 'Pizza Pizza', 'Pizza Hut', 'Chicago-style pizza', 'Pizza Tower', 'Licorice Pizza', "Domino's", 'History of pizza', '&pizza']
+
+SENTENCE FOUND:  A small pizza is sometimes called a pizzetta
+USING PATTERN:re.compile('\\bpizza\\b.*?\\bis\\b.*?\\b\\b(.*)\\b,?')
+ANSWER:  sometimes called a pizzetta
+=>	Pizza is sometimes called a pizzetta.
+=?>	what is Pizza
+
+SEARCHED FOR: Pizza is 
+TITLES OF PAGES RETURNED: ['Pizza', 'Hawaiian pizza', 'Pizza Pizza', 'Pizza Hut', 'Chicago-style pizza', 'Pizza Tower', 'Licorice Pizza', 'History of pizza', "Domino's", '&pizza']
+
+SENTENCE FOUND: Pizza (English:  PEET-sə, Italian: [ˈpittsa], Neapolitan: [ˈpittsə]) is a dish of  Italian origin consisting of a usually round, flat base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients (such as various types of sausage, anchovies, mushrooms, onions, olives, vegetables, meat, ham, etc
+USING PATTERN:re.compile('\\bPizza\\b.*?\\bis\\b.*?\\b\\b(.*)\\b,?')
+ANSWER:  a dish of  Italian origin consisting of a usually round, flat base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients (such as various types of sausage, anchovies, mushrooms, onions, olives, vegetables, meat, ham, etc
+=>	Pizza is a dish of  Italian origin consisting of a usually round, flat base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients (such as various types of sausage, anchovies, mushrooms, onions, olives, vegetables, meat, ham, etc.
+=?>	what is the Moon
+
+SEARCHED FOR: Moon is 
+TITLES OF PAGES RETURNED: ['Moon', 'Moon landing', 'Lunar eclipse', 'Moonbin', 'Moon Moon Sen', 'The Dark Side of the Moon', 'To the Moon', 'Sailor Moon', 'Apollo 11', 'Lunar phase']
+
+SENTENCE FOUND: The Moon is Earth's only natural satellite
+USING PATTERN:re.compile('\\bMoon\\b.*?\\bis\\b.*?\\b\\b(.*)\\b,?')
+ANSWER:  Earth's only natural satellite
+=>	The Moon is Earth's only natural satellite.
+=?>	What is the meaning of life
+
+SEARCHED FOR: meaning of life is 
+TITLES OF PAGES RETURNED: ['Meaning of life', "Monty Python's The Meaning of Life", 'Meaning of Life (album)', 'Meaning of Life (disambiguation)', 'Existential crisis', 'Meaning', 'Meaning of Life Tour', 'Nihilism', 'Sex, Death and the Meaning of Life', 'Maps of Meaning']
+
+SENTENCE FOUND: The meaning of life, or the answer to the question: "What is the meaning of life?", pertains to the significance of living or existence in general
+USING PATTERN:re.compile('\\bmeaning\\b.*?\\bof\\b.*?\\blife\\b.*?\\bis\\b.*?\\b\\b(.*)\\b,?')
+ANSWER:  the meaning of life?", pertains to the significance of living or existence in general
+=>	The meaning of life is the meaning of life?", pertains to the significance of living or existence in general.
+=?>	What is the answer
+
+SEARCHED FOR: answer is 
+TITLES OF PAGES RETURNED: ['Answer', 'The Answer Is...', 'War Is the Answer', 'Answer song', 'Instant answer', 'Love Is the Answer', "Phrases from The Hitchhiker's Guide to the Galaxy", 'No Answer', 'The Answers', 'Answer to the Master']
+
+SEARCHED FOR: answer is object
+TITLES OF PAGES RETURNED: ['Object-oriented programming', 'Subject–verb–object word order', 'Object (philosophy)', 'Trivial Pursuit', 'Answer set programming', 'Armored Core: For Answer', 'Irresistible force paradox', 'Object–verb–subject word order', 'The Object Is', 'JSON']
+
+SENTENCE FOUND:  According to substance theory, the answer is a substance, that which stands for the change
+USING PATTERN:re.compile('\\banswer\\b.*?\\bis\\b.*?\\b\\b(.*)\\b,?')
+ANSWER:  a substance, that which stands for the change
+=>	The answer is a substance, that which stands for the change.
+=?>	What is an answer
+
+SEARCHED FOR: answer is 
+TITLES OF PAGES RETURNED: ['Answer', 'The Answer Is...', 'War Is the Answer', 'Answer song', 'Instant answer', 'Love Is the Answer', "Phrases from The Hitchhiker's Guide to the Galaxy", 'No Answer', 'The Answers', 'Answer to the Master']
+
+SEARCHED FOR: answer is object
+TITLES OF PAGES RETURNED: ['Object-oriented programming', 'Subject–verb–object word order', 'Object (philosophy)', 'Trivial Pursuit', 'Answer set programming', 'Armored Core: For Answer', 'Irresistible force paradox', 'Object–verb–subject word order', 'The Object Is', 'JSON']
+
+SENTENCE FOUND:  According to substance theory, the answer is a substance, that which stands for the change
+USING PATTERN:re.compile('\\banswer\\b.*?\\bis\\b.*?\\b\\b(.*)\\b,?')
+ANSWER:  a substance, that which stands for the change
+=>	An answer is a substance, that which stands for the change.
+=?>	What is an Answer
+
+SEARCHED FOR: Answer is 
+TITLES OF PAGES RETURNED: ['Answer', 'The Answer Is...', 'War Is the Answer', 'Love Is the Answer', 'Answer song', "Phrases from The Hitchhiker's Guide to the Galaxy", 'No Answer', 'The Answers', 'Instant answer', 'Answer Me']
+
+SEARCHED FOR: Answer is object
+TITLES OF PAGES RETURNED: ['Object-oriented programming', 'Object (philosophy)', 'Subject–verb–object word order', 'Trivial Pursuit', 'Answer set programming', 'Irresistible force paradox', 'Object–verb–subject word order', 'Armored Core: For Answer', 'The Object Is', 'Cyclomancy']
+
+SENTENCE FOUND: Answer set programming (ASP) is a form of declarative programming oriented towards difficult (primarily NP-hard) search problems
+USING PATTERN:re.compile('\\bAnswer\\b.*?\\bis\\b.*?\\b\\b(.*)\\b,?')
+ANSWER:  a form of declarative programming oriented towards difficult (primarily NP-hard) search problems
+=>	An Answer is a form of declarative programming oriented towards difficult (primarily NP-hard) search problems.
+=?>	What is the best cryptocurrency
+
+SEARCHED FOR: best cryptocurrency is 
+TITLES OF PAGES RETURNED: ['Cryptocurrency wallet', 'Tether (cryptocurrency)', 'Bitcoin', 'Crypto.com', 'Coinbase', 'Ben McKenzie', 'Socios.com', 'Decentralized finance', 'Non-fungible token', 'MetaMask']
+
+SEARCHED FOR: best cryptocurrency is
+TITLES OF PAGES RETURNED: ['Tether (cryptocurrency)', 'Cryptocurrency wallet', 'Bitcoin', 'Crypto.com', 'Ben McKenzie', 'Coinbase', 'Socios.com', 'Brave (web browser)', 'Decentralized finance', 'Environmental effects of Bitcoin']
+
+SEARCHED FOR: best cryptocurrency
+TITLES OF PAGES RETURNED: ['Tether (cryptocurrency)', 'Cryptocurrency wallet', 'Bitcoin', 'Socios.com', 'Crypto.com', 'Coinbase', 'Ben McKenzie', 'Brave (web browser)', 'MetaMask', 'Blockchain']
+=>	I am sorry, I can not answer your question. Try a different question or rephrase.
+=?>	What is Brave
+
+SEARCHED FOR: Brave is 
+TITLES OF PAGES RETURNED: ['Brave', 'Brave (web browser)', 'Atlanta Braves', 'Brave New World', 'Brave (2012 film)', 'Brave New World (2020 TV series)', 'Brave Bison', 'Merida (Brave)', 'Batman: The Brave and the Bold', 'Brave Search']
+
+SEARCHED FOR: Brave is object
+TITLES OF PAGES RETURNED: ['T-10 tank', 'The Brave Little Toaster', 'CM-11 Brave Tiger', 'Temple Run (series)', 'The King of Braves GaoGaiGar', 'Obiekt 187', 'Aldous Huxley', 'T-64', 'Phantom Brave', 'Brave Raideen']
+
+SENTENCE FOUND: The Brave Little Toaster is a 1987 American independent animated musical film directed by Jerry Rees
+USING PATTERN:re.compile('\\bBrave\\b.*?\\bis\\b.*?\\b\\b(.*)\\b,?')
+ANSWER:  a 1987 American independent animated musical film directed by Jerry Rees
+=>	Brave is a 1987 American independent animated musical film directed by Jerry Rees.
+=?>	What is Disney
+
+SEARCHED FOR: Disney is 
+TITLES OF PAGES RETURNED: ['Disney+', 'The Walt Disney Company', 'Walt Disney', 'Disney Channel', 'List of Disney Channel original films', 'Disney+ Hotstar', 'List of Walt Disney Pictures films', 'Walt Disney World', 'Walt Disney Pictures', 'Disney family']
+
+SENTENCE FOUND: Disney+ is an American subscription video on-demand over-the-top streaming service owned and operated by the Disney Entertainment division of The Walt Disney Company
+USING PATTERN:re.compile('\\bDisney\\b.*?\\bis\\b.*?\\b\\b(.*)\\b,?')
+ANSWER:  an American subscription video on-demand over-the-top streaming service owned and operated by the Disney Entertainment division of The Walt Disney Company
+=>	Disney is an American subscription video on-demand over-the-top streaming service owned and operated by the Disney Entertainment division of The Walt Disney Company.
+=?>	What is the Walt Disney Company
+
+SEARCHED FOR: Walt Disney Company is 
+TITLES OF PAGES RETURNED: ['The Walt Disney Company', 'Walt Disney Studios (division)', 'The Walt Disney Company India', 'Walt Disney Pictures', 'Timeline of the Walt Disney Company', 'Walt Disney', 'Walt Disney Studios Home Entertainment', 'Criticism of the Walt Disney Company', 'Disney Parks, Experiences and Products', 'List of animation studios owned by the Walt Disney Company']
+
+SENTENCE FOUND: The Walt Disney Company, commonly known as Disney (), is an American multinational, mass media and entertainment conglomerate that is headquartered at the Walt Disney Studios complex in Burbank, California
+USING PATTERN:re.compile('\\bWalt\\b.*?\\bDisney\\b.*?\\bCompany\\b.*?\\bis\\b.*?\\b\\b(.*)\\b,?')
+ANSWER:  an American multinational, mass media and entertainment conglomerate that is headquartered at the Walt Disney Studios complex in Burbank, California
+=>	The Walt Disney Company is an American multinational, mass media and entertainment conglomerate that is headquartered at the Walt Disney Studios complex in Burbank, California.
+=?>	What is California
+
+SEARCHED FOR: California is 
+TITLES OF PAGES RETURNED: ['California', 'California City, California', 'University of California', 'Baja California', 'List of largest cities in California by population', 'Southern California', 'List of municipalities in California', 'California Valley, California', 'Governor of California', 'The Californias']
+
+SENTENCE FOUND: California is a state in the Western United States, located along the Pacific Coast
+USING PATTERN:re.compile('\\bCalifornia\\b.*?\\bis\\b.*?\\b\\b(.*)\\b,?')
+ANSWER:  a state in the Western United States, located along the Pacific Coast
+=>	California is a state in the Western United States, located along the Pacific Coast.
+=?>	What is Hacksaw Ridge
+
+SEARCHED FOR: Hacksaw Ridge is 
+TITLES OF PAGES RETURNED: ['Hacksaw Ridge', 'Desmond Doss', 'Mel Gibson', 'List of accolades received by Hacksaw Ridge', 'Terry Benedict', 'Milo Gibson', 'Teresa Palmer', 'Luke Bracey', 'Rachel Griffiths', 'Vince Vaughn']
+
+SENTENCE FOUND: Hacksaw Ridge is a 2016 biographical war film directed by Mel Gibson and written by Andrew Knight and Robert Schenkkan, based on the 2004 documentary The Conscientious Objector directed by Terry Benedict
+USING PATTERN:re.compile('\\bHacksaw\\b.*?\\bRidge\\b.*?\\bis\\b.*?\\b\\b(.*)\\b,?')
+ANSWER:  a 2016 biographical war film directed by Mel Gibson and written by Andrew Knight and Robert Schenkkan, based on the 2004 documentary The Conscientious Objector directed by Terry Benedict
+=>	Hacksaw Ridge is a 2016 biographical war film directed by Mel Gibson and written by Andrew Knight and Robert Schenkkan, based on the 2004 documentary The Conscientious Objector directed by Terry Benedict.
+=?>	What is Hiroshima
+
+SEARCHED FOR: Hiroshima is 
+TITLES OF PAGES RETURNED: ['Hiroshima', 'Atomic bombings of Hiroshima and Nagasaki', 'Little Boy', 'Hiroshima Prefecture', 'Hiroshima Maidens', 'Fuchū, Hiroshima', 'Hiroshima Peace Memorial', 'Sanfrecce Hiroshima', 'Hiroshima Peace Memorial Park', 'Fuchū, Hiroshima (town)']
+
+SENTENCE FOUND: Hiroshima (広島市, Hiroshima-shi, , also UK: , US: , Japanese: [çiɾoɕima]) is the capital of Hiroshima Prefecture in Japan
+USING PATTERN:re.compile('\\bHiroshima\\b.*?\\bis\\b.*?\\b\\b(.*)\\b,?')
+ANSWER:  the capital of Hiroshima Prefecture in Japan
+=>	Hiroshima is the capital of Hiroshima Prefecture in Japan.
+=?>	What is the Forbidden Palace
+
+SEARCHED FOR: Forbidden Palace is 
+TITLES OF PAGES RETURNED: ['Forbidden City', 'Palace Museum', 'History of the Forbidden City', 'Palace of Heavenly Purity', 'Ming Palace', 'Chinese palace', 'List of largest palaces', 'Palace of Eternal Spring', 'Zhongnanhai', 'National Palace Museum']
+
+SEARCHED FOR: Forbidden Palace is
+TITLES OF PAGES RETURNED: ['Forbidden City', 'Palace Museum', 'History of the Forbidden City', 'Palace of Heavenly Purity', 'List of largest palaces', 'Ming Palace', 'Palace of Eternal Spring', 'Chinese palace', 'Zhongnanhai', 'Palace of Earthly Honour']
+
+SEARCHED FOR: Forbidden Palace
+TITLES OF PAGES RETURNED: ['Forbidden City', 'Palace Museum', 'History of the Forbidden City', 'Zhongnanhai', 'Palace of Heavenly Purity', 'Chinese palace', 'Ming Palace', 'List of largest palaces', 'Palace of Eternal Spring', 'Palace of Earthly Honour']
+=>	I am sorry, I can not answer your question. Try a different question or rephrase.
+=?>	What happened in Tiananmen Square
+
+SEARCHED FOR: in Tiananmen Square  
+TITLES OF PAGES RETURNED: ['1989 Tiananmen Square protests and massacre', 'Tiananmen Square', 'Tiananmen Square protests (disambiguation)', 'Tank Man', 'Tiananmen', '1976 Tiananmen Incident', "People's Liberation Army at the 1989 Tiananmen Square protests and massacre", '2013 Tiananmen Square attack', 'Reactions to the 1989 Tiananmen Square protests and massacre', 'Tiananmen Square self-immolation incident']
+
+SENTENCE FOUND: The Tiananmen Square protests, known in Chinese as the June Fourth Incident were student-led demonstrations held in Tiananmen Square, Beijing, during 1989
+USING PATTERN:re.compile('\\bin\\b.*?\\bTiananmen\\b.*?\\bSquare\\b.*?\\b\\b.*?\\b\\b(.*)\\b,?')
+ANSWER: , Beijing, during 1989
+=>	In Tiananmen Square , Beijing, during 1989.
+=?>	what is NLP
+
+SEARCHED FOR: NLP is 
+TITLES OF PAGES RETURNED: ['Neuro-linguistic programming', 'NLP', 'Natural language processing', 'Apache OpenNLP', 'Representational systems (NLP)', 'Methods of neuro-linguistic programming', 'Spark NLP', 'Hallucination (artificial intelligence)', 'Richard Bandler', 'BERT (language model)']
+
+SENTENCE FOUND: Neuro-linguistic programming (NLP) is a pseudoscientific approach to communication, personal development and psychotherapy, that first appeared in Richard Bandler and John Grinder's 1975 book The Structure of Magic I
+USING PATTERN:re.compile('\\bNLP\\b.*?\\bis\\b.*?\\b\\b(.*)\\b,?')
+ANSWER:  a pseudoscientific approach to communication, personal development and psychotherapy, that first appeared in Richard Bandler and John Grinder's 1975 book The Structure of Magic I
+=>	NLP is a pseudoscientific approach to communication, personal development and psychotherapy, that first appeared in Richard Bandler and John Grinder's 1975 book The Structure of Magic I.
+=?>	What is Iron Man
+
+SEARCHED FOR: Iron Man is 
+TITLES OF PAGES RETURNED: ['Iron Man', 'Iron Man (2008 film)', 'Iron Man 2', 'Iron Man 3', 'Tetsuo: The Iron Man', 'Iron Man (song)', 'Iron Man (TV series)', "Iron Man's armor", 'The Iron Man (novel)', 'Iron Man 2 (soundtrack)']
+
+SENTENCE FOUND: Iron Man is a superhero appearing in American comic books published by Marvel Comics
+USING PATTERN:re.compile('\\bIron\\b.*?\\bMan\\b.*?\\bis\\b.*?\\b\\b(.*)\\b,?')
+ANSWER:  a superhero appearing in American comic books published by Marvel Comics
+=>	Iron Man is a superhero appearing in American comic books published by Marvel Comics.
+=?>	What is the capital of the United States
+
+SEARCHED FOR: capital of the United States is 
+TITLES OF PAGES RETURNED: ['Capital punishment in the United States', 'List of capitals in the United States', 'Capital punishment by the United States federal government', 'United States capital (disambiguation)', 'List of United States cities by crime rate', 'United States', 'Capital Airlines (United States)', 'List of states and territories of the United States', 'Capital punishment by the United States military', 'Capital gains tax in the United States']
+
+SEARCHED FOR: capital of the United States is object
+TITLES OF PAGES RETURNED: ['United States recognition of Jerusalem as capital of Israel', 'Capital punishment debate in the United States', 'Constitution of the United States', 'U.S. state', 'Culture of the United States', 'United States Capitol', 'Flag of the United States', 'Capital punishment in the United Kingdom', 'First Bank of the United States', 'January 6 United States Capitol attack']
+
+SENTENCE FOUND:  The national capital of the United States is Washington, D
+USING PATTERN:re.compile('\\bcapital\\b.*?\\bof\\b.*?\\bthe\\b.*?\\bUnited\\b.*?\\bStates\\b.*?\\bis\\b.*?\\b\\b(.*)\\b,?')
+ANSWER:  Washington, D
+=>	The capital of the United States is Washington, D.
+=?>	What is the capital of Virginia
+
+SEARCHED FOR: capital of Virginia is 
+TITLES OF PAGES RETURNED: ['Capital punishment in Virginia', 'Capital One Tower (Virginia)', 'Virginia Capital Trail', 'Richmond, Virginia', 'Capital punishment in West Virginia', 'Virginia State Capitol', 'Capital Beltway', 'Virginia', 'Charleston, West Virginia', 'Colony of Virginia']
+
+SEARCHED FOR: capital of Virginia is
+TITLES OF PAGES RETURNED: ['Capital punishment in Virginia', 'Capital One Tower (Virginia)', 'Virginia Capital Trail', 'Richmond, Virginia', 'Capital punishment in West Virginia', 'Virginia State Capitol', 'Capital Beltway', 'Virginia', 'Charleston, West Virginia', 'Colony of Virginia']
+
+SEARCHED FOR: capital of Virginia
+TITLES OF PAGES RETURNED: ['Richmond, Virginia', 'Capital punishment in Virginia', 'Capital One Tower (Virginia)', 'Virginia Capital Trail', 'Colony of Virginia', 'Virginia State Capitol', 'Capital punishment in West Virginia', 'History of Jamestown, Virginia (1607–1699)', 'Williamsburg, Virginia', 'Virginia Tech']
+
+SEARCHED FOR: capital of
+TITLES OF PAGES RETURNED: ['Capital punishment', 'Capital', 'Capital city', 'Venture capital', 'The Capital', 'Capital accumulation', 'Capital region', 'Braeburn Capital', 'Capital (economics)', 'Capital of Japan']
+=>	I am sorry, I can not answer your question. Try a different question or rephrase.
+=?>	What is the capital of the United Kingdom
+
+SEARCHED FOR: capital of the United Kingdom is 
+TITLES OF PAGES RETURNED: ['Capital punishment in the United Kingdom', 'London', 'United Kingdom', 'Countries of the United Kingdom', 'Outline of the United Kingdom', 'Demography of the United Kingdom', 'Economy of the United Kingdom', 'Capital gains tax', 'Kingdom of Israel (united monarchy)', 'Monarchy of the United Kingdom']
+
+SEARCHED FOR: capital of the United Kingdom is
+TITLES OF PAGES RETURNED: ['Capital punishment in the United Kingdom', 'London', 'United Kingdom', 'Outline of the United Kingdom', 'Countries of the United Kingdom', 'Demography of the United Kingdom', 'Economy of the United Kingdom', 'Capital gains tax', 'Kingdom of Israel (united monarchy)', 'Capital punishment in the United States']
+
+SEARCHED FOR: capital of the United Kingdom
+TITLES OF PAGES RETURNED: ['Capital punishment in the United Kingdom', 'London', 'United Kingdom', 'Outline of the United Kingdom', 'Countries of the United Kingdom', 'Capital gains tax', 'Demography of the United Kingdom', 'Economy of the United Kingdom', 'Politics of the United Kingdom', 'Kingdom of Israel (united monarchy)']
+
+SEARCHED FOR: capital of the United
+TITLES OF PAGES RETURNED: ['List of capitals in the United States', 'Capital punishment in the United Kingdom', 'Capital punishment in the United States', 'United States capital (disambiguation)', 'List of United States cities by crime rate', 'Capital punishment by the United States federal government', 'London', 'Capital city', 'United Capital Partners', 'Capital gains tax']
+
+SEARCHED FOR: capital of the
+TITLES OF PAGES RETURNED: ['Capital punishment', 'Capital', 'The Capital', 'Capital city', 'Venture capital', 'Capital of the Netherlands', 'Capital accumulation', 'London', 'Capital One', 'Braeburn Capital']
+
+SEARCHED FOR: capital of
+TITLES OF PAGES RETURNED: ['Capital punishment', 'Capital', 'Capital city', 'Venture capital', 'The Capital', 'Capital accumulation', 'Capital region', 'Braeburn Capital', 'Capital (economics)', 'Capital of Japan']
+=>	I am sorry, I can not answer your question. Try a different question or rephrase.
+=?>	What is Guy Fawkes Day
+
+SEARCHED FOR: Guy Fawkes Day is 
+TITLES OF PAGES RETURNED: ['Guy Fawkes Night', 'Guy Fawkes mask', 'Guy Fawkes', 'Gunpowder Plot in popular culture', 'Guy Fawkes River', 'Guy Fawkes (novel)', 'Bonfire Night', 'Pope Night', 'List of Daria characters', 'The Flash Girls']
+
+SENTENCE FOUND: Guy Fawkes Night, also known as Guy Fawkes Day, Bonfire Night and Fireworks Night, is an annual commemoration observed on 5 November, primarily in Great Britain, involving bonfires and fireworks displays
+USING PATTERN:re.compile('\\bGuy\\b.*?\\bFawkes\\b.*?\\bDay\\b.*?\\bis\\b.*?\\b\\b(.*)\\b,?')
+ANSWER:  an annual commemoration observed on 5 November, primarily in Great Britain, involving bonfires and fireworks displays
+=>	Guy Fawkes Day is an annual commemoration observed on 5 November, primarily in Great Britain, involving bonfires and fireworks displays.
+=?>	Where does the Pope live?
+
+SEARCHED FOR: Pope live  in
+TITLES OF PAGES RETURNED: ['Pope', 'Pope Francis', 'Alexander Pope', 'Cassadee Pope', 'Lucas Pope', 'List of popes', 'Pope John Paul II', 'The Young Pope', 'Pope Benedict XVI', 'List of saints canonized by Pope Francis']
+
+SENTENCE FOUND: 
+
+
+== Personal life ==
+Pope and his wife Keiko Ishizaka live in Saitama, Japan, with two children
+USING PATTERN:re.compile('\\bPope\\b.*?\\blive\\b.*?\\b\\b.*?\\bin\\b(.*)\\b,?')
+ANSWER:  Saitama, Japan, with two children
+=>	The Pope live in Saitama, Japan, with two children.
+=?>	Where is the Louvre
+
+SEARCHED FOR: Louvre is in
+TITLES OF PAGES RETURNED: ['Louvre', 'Louvre Pyramid', 'Louvre Castle', 'Louvre Palace', 'Louvre Abu Dhabi', 'Louvre Accord', 'Louvre Indonesia', 'Louvre (disambiguation)', 'Louvre Inverted Pyramid', 'Grand Louvre']
+
+SENTENCE FOUND: The Louvre (English:  LOOV(-rə)), or the Louvre Museum (French: Musée du Louvre [myze dy luvʁ] (listen)) is a national art museum in Paris, France
+USING PATTERN:re.compile('\\bLouvre\\b.*?\\bis\\b.*?\\bin\\b(.*)\\b,?')
+ANSWER:  Paris, France
+=>	The Louvre is in Paris, France.
+=?>	Where did Lincoln die
+
+SEARCHED FOR: Lincoln  died in
+TITLES OF PAGES RETURNED: ['Robert Todd Lincoln', 'Assassination of Abraham Lincoln', 'Abraham Lincoln', 'Robert Todd Lincoln Beckwith', 'William Wallace Lincoln', 'Lincoln Tomb', "Ford's Theatre", 'Mary Harlan Lincoln', 'Tad Lincoln', 'Lincoln family']
+
+SENTENCE FOUND: 
+Lincoln became general counsel of the Pullman Company, and after founder George Pullman died in 1897, Lincoln assumed the company's presidency
+USING PATTERN:re.compile('\\bLincoln\\b.*?\\b\\b.*?\\bdied\\b.*?\\bin\\b(.*)\\b,?')
+ANSWER:  1897, Lincoln assumed the company's presidency
+=>	Lincoln died in 1897, Lincoln assumed the company's presidency.
+=?>	Where is Earth
+
+SEARCHED FOR: Earth is in
+TITLES OF PAGES RETURNED: ['Earth', 'Flat Earth', 'Google Earth', 'Earth Day', 'The Earth Is ...', 'Moon', 'In the Earth', 'Not of This Earth', 'Spherical Earth', 'The Wandering Earth']
+
+SENTENCE FOUND: Earth is the third planet from the Sun and the only place known in the universe where life has originated and found habitability
+USING PATTERN:re.compile('\\bEarth\\b.*?\\bis\\b.*?\\bin\\b(.*)\\b,?')
+ANSWER:  the universe where life has originated and found habitability
+=>	Earth is in the universe where life has originated and found habitability.
+=?>	Where is the Moon
+
+SEARCHED FOR: Moon is in
+TITLES OF PAGES RETURNED: ['Moon', 'Moon landing', 'Moon Jae-in', 'Moon Moon Sen', 'Lunar eclipse', 'In Jin Moon', 'Moonbin', 'The Dark Side of the Moon', 'Lunar deity', 'To the Moon']
+
+SENTENCE FOUND: 
+The astronomical symbol for the Moon is a crescent, , for example in M☾ 'lunar mass' (also ML)
+USING PATTERN:re.compile('\\bMoon\\b.*?\\bis\\b.*?\\bin\\b(.*)\\b,?')
+ANSWER:  M☾ 'lunar mass' (also ML
+=>	The Moon is in M☾ 'lunar mass' (also ML.
+=?>	Where is my mother
+
+SEARCHED FOR: my mother is in
+TITLES OF PAGES RETURNED: ['The Eyes of My Mother', 'My Mother the Car', 'You Are Not My Mother', 'All About My Mother', 'My Wife and My Mother-in-Law', 'Are You My Mother?', 'My Mother', "My Mother's Keeper", 'I Killed My Mother', 'My Mother the Carjacker']
+
+SEARCHED FOR: my mother is
+TITLES OF PAGES RETURNED: ['The Eyes of My Mother', 'You Are Not My Mother', 'My Mother the Car', 'All About My Mother', 'My Wife and My Mother-in-Law', 'Are You My Mother?', 'My Mother', 'My Mother Is An Arb', 'I Killed My Mother', 'My Mother the Carjacker']
+
+SEARCHED FOR: my mother isplace
+TITLES OF PAGES RETURNED: ['Has Hlai grammar']
+
+SEARCHED FOR: my mother
+TITLES OF PAGES RETURNED: ['My Mother', 'The Eyes of My Mother', 'All About My Mother', 'You Are Not My Mother', 'My Mother the Car', 'My Wife and My Mother-in-Law', 'Are You My Mother?', 'I Killed My Mother', 'Mother Goose', 'My Mother Frank']
+=>	I am sorry, I can not answer your question. Try a different question or rephrase.
+=?>	Where did Iron Man premier
+
+SEARCHED FOR: Iron Man  premiered in
+TITLES OF PAGES RETURNED: ['Iron Man (2008 film)', 'Iron Man 2', 'Iron Man', 'Iron Man 3', 'Marvel Anime', 'Iron Man: Armored Adventures', 'Iron Man in other media', 'The Man with the Iron Fists', 'Tony Stark (Marvel Cinematic Universe)', 'Spider-Man (2017 TV series)']
+
+SENTENCE FOUND: 
+Iron Man premiered in Sydney on April 14, 2008, and was released in the United States on May 2, being the first film in Phase One of the MCU
+USING PATTERN:re.compile('\\bIron\\b.*?\\bMan\\b.*?\\b\\b.*?\\bpremiered\\b.*?\\bin\\b(.*)\\b,?')
+ANSWER:  Sydney on April 14, 2008, and was released in the United States on May 2, being the first film in Phase One of the MCU
+=>	Iron Man premiered in Sydney on April 14, 2008, and was released in the United States on May 2, being the first film in Phase One of the MCU.
+=?>	exit
